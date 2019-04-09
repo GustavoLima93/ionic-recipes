@@ -1,4 +1,9 @@
-
 <ion-content>
-
+  <ion-list *ngFor="let recipe of recipes">
+    <ion-item>
+      <ion-avatar>
+        <ion-img [src]="recipe.imageUrl"></ion-img>
+      </ion-avatar>
+    </ion-item>
+  </ion-list>
 </ion-content>
