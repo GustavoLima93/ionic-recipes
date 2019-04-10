@@ -13,13 +13,13 @@ export class RecipesPage implements OnInit {
     {
       id: 'r1',
       title: 'Bifão com batata',
-      imageUrl: 'https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwi3lf7-88PhAhUaILkGHYmTA7sQjRx6BAgBEAU&url=https%3A%2F%2Fwww.vix.com%2Fpt%2Fbdm%2Fgourmet%2Fbife-com-batatas-de-marinheiro&psig=AOvVaw3IOwzydv5LnUxKRUAoDuun&ust=1554930054652609',
+      imageUrl: 'https://www.clubedosvinhos.com.br/wp-content/uploads/bife-batata-frita-620x360.jpg',
       ingredients: ['Bifão', 'Arroz', 'Feijão', 'Batata']
     },
     {
       id: 'r2',
       title: 'Macarronada',
-      imageUrl: 'https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwjj7I6n9MPhAhVzBtQKHYScBdgQjRx6BAgBEAU&url=http%3A%2F%2Farevistadamulher.com.br%2Freceitas%2Fcontent%2F2163475-macarronada&psig=AOvVaw0Xcz78xYkH_yC_rIjAUATp&ust=1554930134401410',
+      imageUrl: 'https://abrilmdemulher.files.wordpress.com/2016/09/receita-macarrao-campestre.jpg?quality=90&strip=info',
       ingredients: ['Macarrão', 'Carne', 'Tomate']
     }
   ];
@@ -27,6 +27,7 @@ export class RecipesPage implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log(this.recipes)
   }
 
 }
